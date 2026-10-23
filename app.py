@@ -115,7 +115,7 @@ def processar_triagem():
         # API KEY
         # ----------------------------------------------------------------------
 
-        api_key = os.environ.get("OPENROUTER_API_KEY")
+        api_key = os.environ.get("chave_api_openrouter")
 
         if not api_key:
 
